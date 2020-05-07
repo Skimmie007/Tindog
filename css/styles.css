@@ -1,0 +1,176 @@
+#title {
+        background-color: #ff4c68;
+        color: #fff;
+       }
+
+.container-fluid {
+    padding: 3% 15% 7%;
+  }
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+background-color:#ff4c68;
+text-align: center;
+color: #fff;
+}
+
+#press {
+  background-color:#ff4c68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+#pricing {
+  padding:100px;
+  text-align: center;
+}
+
+#cta {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+
+#footer {
+  padding: 7% 15%;
+  background-color: #fff;
+  text-align: center;
+}
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    }
+
+h2 {
+
+  font-family: 'Montserrat-bold';
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+body {
+    font-family: 'Montserrat';
+  }
+
+h3 {
+    font-family: 'Montserrat-bold', sans-serif;
+  }
+
+p {
+  color: #8f8f8f;
+}
+
+/* navigation bar */
+
+.navbar {
+  padding:0 0 4.5rem;
+}
+
+.cta-heading {
+  font-family: 'Montserrat-black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+.navbar-brand {
+  font-family: "ubuntu";
+  font-size: 2rem;
+  font-weight: bold;
+
+  }
+
+  .nav-item {
+    padding: 0 18px;
+  }
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0%;
+}
+
+.buttons {
+  margin: 50px;
+}
+
+/* Title Image  */
+
+.iphone-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+color: #ff4c68;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius:100%;
+  margin: 20px;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.social-icon {
+  margin:20px 10px;
+}
+
+@media (max-width: 1028px)
+
+  {
+
+  #title {
+
+    text-align: center;
+
+  }
+
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+
+  }
+
+}
